@@ -42,6 +42,12 @@ nmap <C-N><C-N> :bn<CR>
 " Switch to previous buffer
 nmap <C-B><C-B> :bp<CR>
 
+" Execute python file
+nmap <C-E> :%w !python %<CR>
+
+" toggle ale
+nmap <F3> :ALEToggle<CR>
+
 " Set shift width to 4 spaces.
 set shiftwidth=4
 
